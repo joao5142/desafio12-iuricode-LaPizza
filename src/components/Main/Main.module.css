@@ -1,0 +1,204 @@
+ .main {
+     margin-top: 150px;
+
+ }
+
+ .section_best {
+     position: relative;
+ }
+
+ .title {
+     color: var(--gray-200-color);
+     font-weight: 600;
+     font-size: 35px;
+     text-align: center;
+ }
+
+ /* ##VEGETABLE IMAGES */
+ .vegetable,
+ .fish {
+     position: absolute;
+ }
+
+ .vegetable2 {
+     width: 70px;
+     height: 70px;
+     top: -80px;
+     right: 50px;
+ }
+
+ .vegetable3 {
+     right: -45px;
+     width: 100px;
+     height: 100px;
+     bottom: 230px;
+ }
+
+ .vegetable4 {
+     left: 0px;
+     width: 120px;
+     height: 120px;
+     bottom: -100px;
+ }
+
+ .fish {
+     width: 150px;
+     height: 150px;
+     top: -50px;
+     left: 300px;
+ }
+
+ /* ##SECTION  2 */
+ .section_restaurant {
+     margin-top: 250px;
+     padding: 50px 0px;
+     position: relative;
+ }
+
+ .container_image {
+     min-height: 500px;
+     width: 450px;
+     position: relative;
+ }
+
+ .button_read_more {
+     background-color: var(--yellow-color);
+     padding: 10px 40px;
+     color: var(--gray-200-color);
+     font-weight: 600;
+     border-radius: 30px;
+
+ }
+
+ .container_about {
+     width: 70%;
+ }
+
+ .container_about .title {
+     text-align: start;
+ }
+
+ .vegetable5 {
+     right: 80px;
+     width: 140px;
+     height: 140px;
+     top: -80px;
+ }
+
+ .pizza_rounded {
+     position: absolute;
+     width: 140px;
+     height: 140px;
+     background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 100%);
+     box-shadow: 0px 3.04px 3.04px rgba(159, 62, 62, 0.25);
+     border-radius: 50%;
+     z-index: 2;
+ }
+
+ .rounded_1 {
+     left: -60px;
+     top: 20px;
+ }
+
+ .rounded_2 {
+     bottom: 10px;
+     right: 40px;
+ }
+
+
+
+ @media(max-width:1350px) {
+     .fish {
+         left: 50px;
+     }
+
+     .vegetable.vegetable3 {
+         right: 0px;
+         bottom: -80px;
+     }
+
+     .vegetable.vegetable4 {
+         left: 0px;
+         bottom: -80px;
+     }
+
+     .rounded_2 {
+         bottom: -50px;
+         right: -80px;
+     }
+
+     .vegetable5 {
+         z-index: 2;
+     }
+
+ }
+
+ @media(max-width:768px) {
+     .fish {
+         left: -40px;
+     }
+
+     .vegetable.vegetable3 {
+         right: 0px;
+         bottom: -80px;
+     }
+
+     .vegetable.vegetable4 {
+         left: 0px;
+         bottom: -120px;
+     }
+
+     .vegetable5 {
+         top: -60px;
+         right: 0px;
+         z-index: 2;
+     }
+
+     .pizza_rounded {
+         width: 100px;
+         height: 100px;
+     }
+
+     .rounded_2 {
+         bottom: -40px;
+         right: 20px;
+         width: 80px;
+         height: 80px;
+     }
+ }
+
+ @media(max-width:610px) {
+     .rounded_1 {
+         top: -50px;
+         left: auto;
+         width: 80px;
+         height: 80px;
+
+     }
+
+     .vegetable5 {
+         display: none;
+     }
+
+
+
+ }
+
+ @media(max-width:480px) {
+     .fish {
+         left: 0px;
+         top: -80px;
+         width: 120px;
+         height: 120px;
+     }
+ }
+
+ @media(max-width:430px) {
+     .rounded_1 {
+         top: 0px;
+         left: auto;
+         width: 80px;
+         height: 80px;
+
+     }
+ }

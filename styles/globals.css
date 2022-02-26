@@ -1,16 +1,72 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600&display=swap');
+
+/*##RESET*/
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+
+
+}
+
+ul,
+ol {
+  list-style: none;
 }
 
 a {
-  color: inherit;
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+img {
+  height: auto;
+}
+
+button,
+input,
+textarea {
+  border: 0;
+  outline: none;
+}
+
+button:focus,
+input:focus,
+textarea:focus {
+  border: 0;
+  outline: none;
+}
+
+p {
+  font-weight: 300;
+  color: var(--gray-color)
+}
+
+body {
+  font-family: "Sora", sans-serif;
+  overflow-x: hidden;
+}
+
+/* ##UTILS */
+.text-green {
+  color: var(--green-color);
+}
+
+.text-red {
+  color: var(--red-color);
+}
+
+.text-yellow {
+  color: var(--yellow-color);
+}
+
+
+/*##VARIAVEIS*/
+:root {
+  --green-color: #5C913B;
+  --yellow-color: #FFA200;
+  --red-color: #CF3031;
+  --pink-color: #FFD4C9;
+  --white-color: #FEF6F4;
+  --gray-color: #616161;
+  --gray-200-color: #2E2E2E;
 }
