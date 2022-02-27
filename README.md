@@ -9,4 +9,4 @@
 <h2>Preview</h2>
 <img margin-bottom="20px" src="public/assets/img/Readme.PNG"">
 <img margin-bottom="20px" src="public/assets/img/Readme2.PNG"">
-<h4  style="display: inline_block">Visualização do site :</h4><a style="display: inline_block" target="blank" href="https://lokilandingpage.netlify.app/">Preview no Netlify</a>
+<h4  style="display: inline_block">Visualização do site :</h4><a style="display: inline_block" target="blank" href="https://desafio12-iuricode-la-pizza.vercel.app/">Preview na Vercel</a>
