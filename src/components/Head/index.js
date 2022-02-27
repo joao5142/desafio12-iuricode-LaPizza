@@ -13,7 +13,7 @@ export default function Head() {
       </p>
 
       <div className={styles.vegetable}>
-        <Image src={"/assets/img/vegetable1.svg"} layout="fill" />
+        <Image priority src={"/assets/img/vegetable1.svg"} layout="fill" />
       </div>
     </header>
   );

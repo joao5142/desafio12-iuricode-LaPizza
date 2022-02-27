@@ -8,19 +8,19 @@ export default function Main() {
       <section className={styles.section_best}>
         <p className={styles.title}>Mais vendidas</p>
         <div className={`${styles.fish} `}>
-          <Image layout="fill" src={"/assets/img/fish.svg"} />
+          <Image priority layout="fill" src={"/assets/img/fish.svg"} />
         </div>
 
         <div className={`${styles.vegetable} ${styles.vegetable2}`}>
-          <Image layout="fill" src={"/assets/img/vegetable2.svg"} />
+          <Image priority layout="fill" src={"/assets/img/vegetable2.svg"} />
         </div>
 
         <div className={`${styles.vegetable} ${styles.vegetable3}`}>
-          <Image layout="fill" src={"/assets/img/vegetable3.svg"} />
+          <Image priority layout="fill" src={"/assets/img/vegetable3.svg"} />
         </div>
 
         <div className={`${styles.vegetable} ${styles.vegetable4}`}>
-          <Image layout="fill" src={"/assets/img/vegetable4.svg"} />
+          <Image priority layout="fill" src={"/assets/img/vegetable4.svg"} />
         </div>
 
         <div className="row">
@@ -55,7 +55,7 @@ export default function Main() {
         <div className="row position-relative justify-content-center">
           {/* Images  */}
           <div className={`${styles.vegetable} ${styles.vegetable5}`}>
-            <Image layout="fill" src={"/assets/img/vegetable5.svg"} />
+            <Image priority layout="fill" src={"/assets/img/vegetable5.svg"} />
           </div>
 
           {/* ROW SECTION */}
@@ -63,15 +63,15 @@ export default function Main() {
             className={`${styles.container_image} col-md-6 position-relative  me-md-5`}
           >
             <div className={`${styles.pizza_rounded} ${styles.rounded_1}`}>
-              <Image layout="fill" src={"/assets/img/pizza1.svg"} />
+              <Image priority layout="fill" src={"/assets/img/pizza1.svg"} />
             </div>
 
-            <Image layout="fill" src={"/assets/img/restaurant.svg"} />
+            <Image priority layout="fill" src={"/assets/img/restaurant.svg"} />
           </div>
 
           <div className="col-md-6 d-flex justify-content-center align-items-center position-relative">
             <div className={`${styles.pizza_rounded} ${styles.rounded_2} `}>
-              <Image layout="fill" src={"/assets/img/pizza2.png"} />
+              <Image priority layout="fill" src={"/assets/img/pizza2.png"} />
             </div>
 
             <div className={`${styles.container_about} mt-md-none mt-5`}>

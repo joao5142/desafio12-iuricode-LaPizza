@@ -7,7 +7,7 @@ export default function Card(props) {
         <div
           className={`${styles.card_image} d-flex align-items-center justify-content-center`}
         >
-          <Image layout="fill" src={props.srcImage} />
+          <Image priority layout="fill" src={props.srcImage} />
         </div>
         <p className={styles.card_title}>{props.title}</p>
         <p className={styles.card_text}>{props.text}</p>
